@@ -1,0 +1,522 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/vadiraja/Documents/ece571/project
+X_1024Mb_ddr3_parameters_sv_unit
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1520986982
+!i10b 1
+!s100 ]2nZa_?m[e2EO<]ZT_>Aj3
+Io[2don=eXTQ`Y@hZD2ca:0
+Vo[2don=eXTQ`Y@hZD2ca:0
+!i103 1
+S1
+R0
+Z3 w1520958920
+8./memory_model/1024Mb_ddr3_parameters.sv
+Z4 F./memory_model/1024Mb_ddr3_parameters.sv
+Z5 L0 354
+Z6 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z7 !s108 1520986982.000000
+!s107 ./memory_model/1024Mb_ddr3_parameters.sv|
+!s90 -work|work|./memory_model/1024Mb_ddr3_parameters.sv|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@_1024@mb_ddr3_parameters_sv_unit
+T_opt
+!s110 1520986985
+VLdZ;a1?c;]edjP`z:Xc2C1
+04 6 4 work hdltop fast 0
+04 6 4 work hvltop fast 0
+=1-b82a72deaf84-5aa86b68-f315f-270
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4c;61
+vcounter
+R1
+R2
+!i10b 1
+!s100 L?dXOBjCC0DP2:iiQ_d2M2
+I>gOk6b7]OC=XLQeeIo9g`2
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+!s105 counter_sv_unit
+S1
+R0
+Z10 w1520967084
+8./hdl/counter.sv
+F./hdl/counter.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ./hdl/interface.sv|./hdl/counter.sv|./hdl/Data_O_Burst.sv|./hdl/DUT_pkg.sv|./hdl/DUT.sv|./hdl/Burst.sv|
+Z12 !s90 -work|work|./hdl/Burst.sv|./hdl/DUT.sv|./hdl/DUT_pkg.sv|./hdl/Data_O_Burst.sv|./hdl/counter.sv|./hdl/interface.sv|
+!i113 0
+R8
+vddr3
+R1
+DXx4 work 12 ddr3_sv_unit 0 22 `Mb^Dif>Ej]WZ>bJAmlR:1
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 lZfJ0SQeAok7KIVGWVIfT0
+Ih[CP[0`Fm1lhRlRDgH]Y:2
+!s105 ddr3_sv_unit
+S1
+R0
+R3
+Z13 8./memory_model/ddr3.sv
+Z14 F./memory_model/ddr3.sv
+L0 100
+R6
+R7
+Z15 !s107 ./memory_model/1024Mb_ddr3_parameters.sv|./memory_model/ddr3.sv|
+Z16 !s90 -work|work|./memory_model/ddr3.sv|
+!i113 0
+R8
+vDDR3_Controller
+R1
+Z17 DXx4 work 10 DDR3MemPkg 0 22 SR9iKeKBTRcT9n1]38:;;3
+DXx4 work 11 DUT_sv_unit 0 22 99gLM1k21[lk7[<]c6g2g3
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^WhNNOZlzjlzEMOBST<Bd0
+Ik?j92gQe3VAo7RXe]k9S61
+!s105 DUT_sv_unit
+S1
+R0
+R10
+Z18 8./hdl/DUT.sv
+Z19 F./hdl/DUT.sv
+L0 3
+R6
+R7
+R11
+R12
+!i113 0
+R8
+n@d@d@r3_@controller
+Xddr3_sv_unit
+R1
+V`Mb^Dif>Ej]WZ>bJAmlR:1
+r1
+!s85 0
+31
+!i10b 1
+!s100 k`cY@LAl2J5M4::>99_Fd3
+I`Mb^Dif>Ej]WZ>bJAmlR:1
+!i103 1
+S1
+R0
+R3
+R13
+R14
+R4
+R5
+R6
+R7
+R15
+R16
+!i113 0
+R8
+XDDR3MemPkg
+R1
+R2
+!i10b 1
+!s100 Maol<Y^g^kHX^b`EIPIAW3
+ISR9iKeKBTRcT9n1]38:;;3
+VSR9iKeKBTRcT9n1]38:;;3
+S1
+R0
+R10
+8./hdl/DUT_pkg.sv
+F./hdl/DUT_pkg.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R8
+n@d@d@r3@mem@pkg
+Xdriver_p
+R1
+R17
+Z20 DXx4 work 13 transaction_p 0 22 7>zHmc8icN9E8IR1eI_ne0
+Z21 DXx4 work 11 generator_p 0 22 XOjZ>VzS5XG;Sf7Vl]gN]2
+R2
+!i10b 1
+!s100 ]RdJ9h;D?:]PMd:iMW53C2
+INgbiA34CBSa`OGc^Jlb<F3
+VNgbiA34CBSa`OGc^Jlb<F3
+S1
+R0
+w1520985600
+8./hvl/tb_driver.sv
+F./hvl/tb_driver.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./hvl/tb_driver.sv|
+!s90 -work|work|./hvl/tb_driver.sv|
+!i113 0
+R8
+XDUT_sv_unit
+R1
+R17
+V99gLM1k21[lk7[<]c6g2g3
+r1
+!s85 0
+31
+!i10b 1
+!s100 `HR3zzC;0aj2P0Bj39KbH0
+I99gLM1k21[lk7[<]c6g2g3
+!i103 1
+S1
+R0
+R10
+R18
+R19
+L0 1
+R6
+R7
+R11
+R12
+!i113 0
+R8
+n@d@u@t_sv_unit
+Xenvironment_p
+R1
+R17
+R20
+R21
+Z22 DXx4 work 8 driver_p 0 22 NgbiA34CBSa`OGc^Jlb<F3
+Z23 DXx4 work 12 scoreboard_p 0 22 AHe:37fek@DH]^FV1e<>30
+Z24 !s110 1520986983
+!i10b 1
+!s100 S:8Y5LYNTT;cVM3IoOGOb1
+IBBZ;0c^:X4l[H4YQMGa?k3
+VBBZ;0c^:X4l[H4YQMGa?k3
+S1
+R0
+w1520986068
+8./hvl/tb_environment.sv
+F./hvl/tb_environment.sv
+L0 10
+R6
+r1
+!s85 0
+31
+Z25 !s108 1520986983.000000
+!s107 ./hvl/tb_environment.sv|
+!s90 -work|work|./hvl/tb_environment.sv|
+!i113 0
+R8
+Xgenerator_p
+R1
+R17
+R20
+R2
+!i10b 1
+!s100 gcV0iQA:75>WKWVb^XabR3
+IXOjZ>VzS5XG;Sf7Vl]gN]2
+VXOjZ>VzS5XG;Sf7Vl]gN]2
+S1
+R0
+R3
+8./hvl/tb_generator.sv
+F./hvl/tb_generator.sv
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./hvl/tb_generator.sv|
+!s90 -work|work|./hvl/tb_generator.sv|
+!i113 0
+R8
+vhdltop
+R1
+R24
+!i10b 1
+!s100 ah1Ge67FIWL2KNMoYRK[B3
+I=nVmEZ=c@J_kEnZR08TjB1
+R9
+!s105 top_sv_unit
+S1
+R0
+R3
+8./hvl/top.sv
+F./hvl/top.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R25
+!s107 ./hvl/top.sv|
+!s90 -work|work|./hvl/top.sv|
+!i113 0
+R8
+Xhvl_top_sv_unit
+R1
+V28@S_>e_LOP__n159=Wn91
+r1
+!s85 0
+31
+!i10b 1
+!s100 cAoh33SoT[;N7HXJ;>8<<1
+I28@S_>e_LOP__n159=Wn91
+!i103 1
+S1
+R0
+R3
+Z26 8./hvl/hvl_top.sv
+Z27 F./hvl/hvl_top.sv
+L0 3
+R6
+R25
+Z28 !s107 ./hvl/hvl_top.sv|
+Z29 !s90 -work|work|./hvl/hvl_top.sv|
+!i113 0
+R8
+vhvltop
+R1
+DXx4 work 15 hvl_top_sv_unit 0 22 28@S_>e_LOP__n159=Wn91
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 VzI0VM8N:H?jcLzP@oFZ72
+I5ld7AzU@LCQH0LFfa@9Z70
+!s105 hvl_top_sv_unit
+S1
+R0
+R3
+R26
+R27
+L0 13
+R6
+R25
+R28
+R29
+!i113 0
+R8
+Xinterface_sv_unit
+R1
+R17
+VToVNPT8Mcm;o?9ET<XXHF0
+r1
+!s85 0
+31
+!i10b 1
+!s100 l1T:^_mo`GoeSFS<d38:W3
+IToVNPT8Mcm;o?9ET<XXHF0
+!i103 1
+S1
+R0
+Z30 w1520986686
+Z31 8./hdl/interface.sv
+Z32 F./hdl/interface.sv
+L0 1
+R6
+R7
+R11
+R12
+!i113 0
+R8
+Ymem_if
+R1
+R17
+Z33 DXx4 work 17 interface_sv_unit 0 22 ToVNPT8Mcm;o?9ET<XXHF0
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 0D2]2>LO2eg07ohg^5Mlg1
+I^ZS:[Km`GPIPFoChk_Kc92
+Z34 !s105 interface_sv_unit
+S1
+R0
+R30
+R31
+R32
+L0 2
+R6
+R7
+R11
+R12
+!i113 0
+R8
+Ymem_intf
+R1
+R17
+R33
+R9
+r1
+!s85 0
+31
+!i10b 1
+!s100 PmVj0hERAcfBK4J0a50oO3
+IE_W6adJ:nIoBo16]FYn9V2
+R34
+S1
+R0
+R30
+R31
+R32
+L0 55
+R6
+R7
+R11
+R12
+!i113 0
+R8
+vread_burst
+R1
+R2
+!i10b 1
+!s100 @54ikkPMfO<4<7hT7kJ`11
+IgG]5=Fe_?ZVS>d]V8]O4?2
+R9
+!s105 Data_O_Burst_sv_unit
+S1
+R0
+R10
+8./hdl/Data_O_Burst.sv
+F./hdl/Data_O_Burst.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R8
+Xscoreboard_p
+R1
+R17
+R20
+R24
+!i10b 1
+!s100 JOVRXN4@kj[03@T7ma2Lm3
+IAHe:37fek@DH]^FV1e<>30
+VAHe:37fek@DH]^FV1e<>30
+S1
+R0
+w1520985250
+8./hvl/tb_scoreboard.sv
+F./hvl/tb_scoreboard.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R25
+!s107 ./hvl/tb_scoreboard.sv|
+!s90 -work|work|./hvl/tb_scoreboard.sv|
+!i113 0
+R8
+4test
+R1
+R17
+R20
+R21
+R22
+R23
+DXx4 work 13 environment_p 0 22 BBZ;0c^:X4l[H4YQMGa?k3
+R24
+!i10b 1
+!s100 UeBfn=Q6I];<IY<f:JPW;2
+IFdmgSWZED5KnC@nFa@9_l2
+R9
+!s105 tb_test_sv_unit
+S1
+R0
+w1520986884
+8./hvl/tb_test.sv
+F./hvl/tb_test.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R25
+!s107 ./hvl/tb_test.sv|
+!s90 -work|work|./hvl/tb_test.sv|
+!i113 0
+R8
+Xtransaction_p
+R1
+R17
+R2
+!i10b 1
+!s100 U:JFUaW108LbIkE[G6LRV3
+I7>zHmc8icN9E8IR1eI_ne0
+V7>zHmc8icN9E8IR1eI_ne0
+S1
+R0
+w1520985203
+8./hvl/tb_transaction.sv
+F./hvl/tb_transaction.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./hvl/tb_transaction.sv|
+!s90 -work|work|./hvl/tb_transaction.sv|
+!i113 0
+R8
+vWriteBurst
+R1
+R2
+!i10b 1
+!s100 CS7`nHElm^BgbHBTdFceA0
+IdBGJkFNY_BK]47UIZ4b]c3
+R9
+!s105 Burst_sv_unit
+S1
+R0
+R10
+8./hdl/Burst.sv
+F./hdl/Burst.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R8
+n@write@burst
